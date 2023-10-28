@@ -15,7 +15,7 @@
 <body>
 <h1>Đăng Nhập</h1>
 <form action="ControlServlet" method="post" >
-    <label for="username">Tên Đăng Nhập:</label>
+    <label for="username">  Tên Đăng Nhập:</label>
     <input type="text" id="username" name="username" required><br>
 
     <label for="password">Mật Khẩu:</label>

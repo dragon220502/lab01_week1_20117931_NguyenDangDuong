@@ -20,6 +20,8 @@ public class ControlServlet extends HttpServlet {
         this.service = service;
         this.roleService = roleService;
     }
-    protected void doGet(HttpServletRequest rep, HttpServletResponse resp) throws ServerException, IOException{};
+
+    protected void doPost(HttpServletRequest rep, HttpServletResponse resp) throws ServerException, IOException{};
+
 
 }
